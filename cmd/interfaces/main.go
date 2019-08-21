@@ -8,11 +8,6 @@ type User struct {
 	Last  string
 }
 
-// Task:
-// Satisfy the stringer interface (https://golang.org/pkg/fmt/#Stringer)
-// so that the User struct will print
-// User <ID> is <First> <Last>
-//
 // example:
 //      User 1 is Rob Pike
 func (u User) String() string {
